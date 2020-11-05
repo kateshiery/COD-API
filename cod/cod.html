@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="Top Tier"/>
+<title>Top Tier eSports</title>
+<link rel = "stylesheet" type = "text/css" media = "screen" href = "style/cod_style.css">
+</head>
+
+<body>
+<header>
+	<img class="logo" src="assets/logo.png">
+	<div class="main_navBar">
+		<nav>
+			<ul class="menu">
+				<li><a class="active" href="index.html">HOME</a></li>
+				<li><a href="news.html">NEWS</a></li>
+				<li><a href="links.html">LINKS</a></li>
+			</ul>
+		</nav>
+    </div>
+	<div class="secondary_navBar">
+		<nav>
+			<ul class="menu_b">
+				<li><a class="active" href="lol.html"><img class = "icon" src="assets/cod.png">Call of Duty</a></li>
+				<li><a href="dota.html"><img class = "icon" src="assets/dota.jpg">Dota 2</a></li>
+				<li><a href="valorant.html"><img class = "icon" src="assets/valorant.png">Valorant</a></li>
+				<li><a href="csgo/csgo.html"><img class = "icon" src="assets/csgo.png">CS:GO</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+	<div class="lol_nav">
+		<ul class="cod">
+			<li><a class="active_mode" href="cod.html">WARZONE</a></li>
+			<li><a href="news.html">MULTIPLAYER</a></li>
+			<li><a href="links.html">LEADERBOARD</a></li>
+		</ul>
+	</div>
+
+	<form class="search" action="">
+		<button id="search-submit" type="submit">Search</button>
+		<input id="search-bar" type="text" placeholder="Gamer Tag" name="search">
+		<select name="platforms" id="platforms" class="platforms">
+			<option value="psn">Playstation</option>
+			<option value="steam">Steam</option>
+			<option value="battle">Battle.net</option>
+			<option value="uno">Activision ID</option>
+			<option value="acti">Activision Tag</option>
+		</select>
+	</form>
+
+	<div id="content">
+	</div>
+	<script src="js/lolAPI.js" type="javascript/application"></script>
+</body>
+

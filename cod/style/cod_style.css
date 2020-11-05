@@ -1,0 +1,170 @@
+/* For desktops*/
+@media only screen and (min-width: 768px){
+
+    body{
+        background-color: rgb(21,26,30);
+    }
+
+    *{
+        font-family: 'Franklin Gothic Medium', sans-serif;
+        list-style: none;
+    }
+    /* HOME TAB */
+    /* Navigation Bar */
+    /* Hide for browsers */
+    .sidebar_close{
+        display: none;
+    }
+
+    .sidebar_open{
+        display: none;
+    }
+
+    .main_navBar{
+        align-items: center;
+        justify-content: flex-end;
+        display: flex;
+        padding: 2%;
+        margin: 2%;
+        z-index: 2;
+        position: relative;
+    }
+
+    .lol_nav{
+        padding: 2%;
+        margin: 2%;
+        z-index: 2;
+        position: absolute;
+        margin-left: 25%;
+    }
+
+    img.logo{
+        width: 40%;
+        height: 15%;
+        margin-left: 5%;
+        z-index: 3;
+        position: absolute;
+    }
+
+    .menu li, .menu a, .cod li, .cod a{
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+        padding: 20px 30px;
+    }
+
+
+    .menu li, .cod li{
+        display: inline;
+        padding: 0px 3px;
+    }
+
+
+    .menu li a:hover, .cod a:hover{
+        transition-duration: 0.3s;
+        color: white;
+        background-color: #e8a135;
+        opacity: 50%;
+    }
+
+    .active, .active_mode{
+        color: white;
+        background-color: #e8a135;
+    }
+
+    .secondary_navBar{
+        align-items: center;
+        justify-content: flex-start;
+        display: flex;
+        z-index: 2;
+        position: relative;
+        background-color: white;
+    }
+    .icon{
+        width: 2%;
+        height: 2%;
+        margin-right: 0.5%;
+        margin-top: -0.5%;
+        margin-bottom: -0.5%;
+    }
+
+    .menu_b li, .menu_b a{
+        font-weight: 500;
+        font-size: 16px;
+        color: rgb(21,26,30);
+        text-decoration: none;
+        padding: 15px 20px;
+    }
+
+    .menu_b{
+        list-style: none;
+    }
+
+    .menu_b li{
+        display: inline;
+        padding: 0px 3px;
+    }
+
+
+    .menu_b li a:hover{
+        transition-duration: 0.3s;
+        background-color: #e8a135;
+    }
+
+
+    form.search input[type=text] {
+        float: right;
+        width: 30%;
+        padding: 1%;
+        margin: 2%;
+        margin-bottom: 0%;
+        margin-top: 10%;
+        margin-right: 0%;
+        border: 1px solid grey;
+        border-right: none;
+        font-size: 17px;
+        background: rgb(21,26,30);
+        color: white;
+    }
+
+    .search button {
+        float: right;
+        width: 10%;
+        padding: 1%;
+        margin: 2%;
+        margin-bottom: 0%;
+        margin-top: 10%;
+        margin-left: 0%;
+        border: 1px solid grey;
+        border-right: none;
+        background: #e8a135;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    form.search button:hover {
+        background: black;
+    }
+
+
+    .platforms{
+        background-color: rgb(21,26,30);
+        font-size: 17px;
+        color: white;
+        position: relative;
+        margin-left: 88%;
+        margin-top: -10%;
+        width: 10%;
+    }
+}
+
+
+/*For Mobile Phones*/
+@media only screen and (max-width: 768px){
+
+    body{
+        background-color:  rgb(21,26,30);
+    }
+}
